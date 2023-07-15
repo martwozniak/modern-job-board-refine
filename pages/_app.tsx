@@ -11,6 +11,7 @@ import routerProvider, {
 } from "@refinedev/nextjs-router";
 import type { NextPage } from "next";
 import { AppProps } from "next/app";
+import "./index.css";
 
 import { Header } from "@components/header";
 import { ColorModeContextProvider } from "@contexts";
